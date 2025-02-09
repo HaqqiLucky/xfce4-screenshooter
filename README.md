@@ -24,7 +24,7 @@ ill explain some of the code while explaining how to do it
 6. Now to change the command, double click the command (double click on command side, not the shortcut side)
 7. Then you gonna see there are Shortcut, command and use startup notification... but we gonna change the command only for now, click the box that in same row in command (not the use startup), if you press it, it will be open the file manager
 8. Now locate that screenshot.sh that you just downloaded and click open
-9. Then you got the path on your command.. after that dont press ok yet.. but by the end of the path put one space and write full (example: /Documents/cheats/screenshot.sh full). This mean this command only run from screenshot.sh in full case... if you open the file, you can see there are case in there and i named it full -f stand for full and -s stands for save
+9. Then you got the path on your command.. after that dont press ok yet.. but by the end of the path put one space and write "full" (example: /Documents/cheats/screenshot.sh full). This mean this command only run from screenshot.sh in full case... if you open the file, you can see there are case in there and i named it full -f stand for full and -s stands for save
 10. After that just hit the OK
 11. now if you press the prtsc, it will take the screenshot. since you dont know it have been taken or not i put notify-send on shell.. so if you take screnshot, there will be a notification for that... you can change the word of notification
 12. After that you can do it for the rest right? its the same way,like you double click the screenshoter -r that has Shift+Print shortcut, then you go to command locate the file and since this is -r or area we put on the last path with area, hit ok and done
